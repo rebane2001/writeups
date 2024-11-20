@@ -1,0 +1,13 @@
+{
+  "name": "readflagtest",
+  "version": "1.2.5",
+  "description": "Tries to read a CTF flag by executing /readflag. <b>Package just for testing, don't use this lol</b>.",
+  "main": "index.js",
+  "scripts": {},
+  "author": "ctf2001",
+  "license": "ISC",
+  "exports": {
+      ".": {},
+      "./package.json": "./evilcode.js"
+  }
+}
