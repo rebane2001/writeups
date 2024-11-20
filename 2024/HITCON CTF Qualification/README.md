@@ -11,10 +11,10 @@ I played on the **ECSC ESTONIA** team, we placed 26th overall.
 
 The challenges I worked on were:
 
-- [misc/Flag Reader](/Flag%20Reader) (solved)
-- [web/Truth of NPM](/Truth%20of%20NPM) (solved)
-- [web/Echo as a Service](/Echo%20as%20a%20Service) (solved)
-- [pwn,misc/V8 SBX](/V8%20SBX) (solved)
+- [misc/Flag Reader](Flag%20Reader) (solved)
+- [web/Truth of NPM](Truth%20of%20NPM) (solved)
+- [web/Echo as a Service](Echo%20as%20a%20Service) (solved)
+- [pwn,misc/V8 SBX](V8%20SBX) (solved)
 - misc,web/Personal Web Space 1 (no solve)
 - web/Private Browsing+ (no solve)
 - web,misc/ImagikaTragicka (no solve)
