@@ -32,4 +32,4 @@ All the important code is in `cheat.py`, the rest of it is just adding hooks to 
 - Player coordinates
 - Object listing with dedupe (disabled by default)
 
-[Demo Video](https://youtu.be/-ai2VeImSLU)
+[Demo Video](https://youtu.be/Dl-olUYxPt0)
